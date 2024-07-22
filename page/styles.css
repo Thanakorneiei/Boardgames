@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+.nav {
+    background-color: rgb(15, 43, 66);
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 100;
+}
+.nav ul {
+    list-style-type: none; 
+    color: white;
+}
+.nav li {
+    position: absolute;
+}
+.txt1 {
+    left: 10px;
+}
+.txt2 {
+    left: 55px;
+    font-size: 30px;
+    margin-top: -5px;
+}
+.txt3 {
+    left: 80px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 100%;
+    padding-bottom: 5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header h1 {
+    padding-top: 120px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+}
+.header p {
+    font-size: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-left: 35%;
+    padding-right: 35%;
+    margin-top: -20px;
+}
+.body {
+    background-color: rgb(15, 43, 66);
+    position: relative;
+    width: 100%;
+    padding-bottom: 10%;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.body h2 {
+    text-align: center;
+    font-size: 40px;
+}
+.body h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.body h4 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+.bodytext1 {
+    padding-left: 5%;
+    padding-right: 40%;
+    padding-top: 5%;
+}
+.bodytext2 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.pic {
+    position: absolute;
+    width: 25vw;
+    height: 50vh;
+    top: 10%;
+    left: 65%;
+    border: 2px solid white;
+    padding: 10px;
+}
+.body img {
+    position: absolute;
+    width: 97%;
+    height: 97%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.footer {
+    background-color: rgb(10, 29, 45);
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin-top: -18;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.foottxt {
+    padding-top: 50px
+}

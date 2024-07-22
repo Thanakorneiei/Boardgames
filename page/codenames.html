@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codenames</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="../picture/logo.png">
+</head>
+<body>
+    <div class ="nav">
+        <ul>
+            <li class="txt1"><a href="../index.html">
+                <img src="../picture/home.png" height = "25">
+            </a></li>
+            <li class="txt2">|</li>
+            <li class="txt3">Boardgames</li>
+        </ul>
+    </div>
+    <div class="header">
+        <h1>Codenames</h1>
+        <p>เกมนี้เน้นการใช้คำและการให้เบาะแส
+            เพื่อให้ทีมของคุณสามารถเดาคำที่ถูกต้องได้</p>
+    </div>
+    <div class="body">
+        <div class="pic">
+            <img src="../picture/insidecodenames.jpg">
+        </div>
+        <div class="bodytext1">
+            <h2>How to play : Codenames</h2>
+            <hr/>
+            <h3>การตั้งค่าเกม</h3>
+            <h4>
+                <ol>
+                    <li>จำนวนผู้เล่น: 2-8 คน</li>
+                    <li>เตรียมกระดาน:
+                        <ul>
+                            <li>วางการ์ดคำทั้งหมด (25 ใบ) ลงบนโต๊ะในรูปแบบ 5x5 เป็นตาราง</li>
+                            <li>แต่ละการ์ดมีคำหนึ่งคำที่เกี่ยวข้องกับรหัสลับ
+                            </li>
+                        </ul>
+                    </li>
+                    <li>จัดสรรทีม:
+                        <ul>
+                            <li>แบ่งผู้เล่นออกเป็นสองทีม (แดงและน้ำเงิน) โดยแต่ละทีมมี "Spymaster" และ "Field Operatives"</li>
+                            <li>Spymaster เป็นผู้ให้คำใบ้</li>
+                            <li>Field Operatives เป็นผู้เดาคำ</li>
+                        </ul>
+                    </li>
+                    <li>กำหนดรหัสลับ:
+                        <ul>
+                            <li>เปิดการ์ดรหัสลับ (key card) ซึ่งจะแสดงว่าคำไหนเป็นของทีมแดง, ทีมสีน้ำเงิน, คำที่เป็นกลาง และคำที่เป็น "Assassin" (คำอันตราย)</li>
+                        </ul>
+                    </li>
+                </ol>
+            </h4>
+        </div>
+        <div class="bodytext2">
+            <h3>วิธีการเล่น</h3>
+            <h4>
+                <ol>
+                    <li>การให้คำใบ้:
+                        <ul>
+                            <li>Spymaster ของแต่ละทีมจะให้คำใบ้ (คำเดียว) และตัวเลขที่เกี่ยวข้อง (เช่น "สัตว์ 2" หมายถึงมีสองคำที่เกี่ยวข้องกับสัตว์)</li>
+                            <li>คำใบ้ต้องไม่เกี่ยวข้องกับคำที่เป็นของฝ่ายตรงข้าม หรือคำที่เป็นคำอันตราย
+                            </li>
+                        </ul>
+                    </li>
+                    <li>การเดาคำ:
+                        <ul>
+                            <li>Field Operatives ของแต่ละทีมจะพูดคุยกันและเลือกคำที่เชื่อว่าตรงกับคำใบ้</li>
+                            <li>พวกเขาจะเลือกคำจากการ์ดที่เปิดเผยและวางการ์ดคำที่เลือกไว้ด้านบน</li>
+                            <li>ทีมมีโอกาสเลือกคำที่เท่ากับคำใบ้ที่ได้รับ +1 (เช่น คำใบ้ 2 สามารถเลือกได้ 3 คำ)</li>
+                            <li>หากเลือกคำที่เป็นของฝ่ายตรงข้ามหรือคำที่เป็นกลางจะเป็นการเปลี่ยนไปยังฝ่ายตรงข้ามหรือสิ้นสุดการเดินหมาก</li>
+                        </ul>
+                    </li>
+                    <li>การเปิดเผยคำ:
+                        <ul>
+                            <li>หากคำที่เลือกถูกต้อง (เป็นของทีม), จะใช้การ์ดสีของทีม (แดงหรือน้ำเงิน) ปิดทับคำที่เลือก</li>
+                            <li>หากเป็นคำที่เป็นกลาง จะใช้การ์ดกลางปิดทับ</li>
+                            <li>หากเป็นคำที่เป็นของฝ่ายตรงข้าม จะใช้การ์ดสีของฝ่ายตรงข้าม</li>
+                            <li>หากเป็นคำที่เป็น "Assassin", ทีมที่เลือกคำนี้จะแพ้ทันที</li>
+                        </ul>
+                    </li>
+                    <li>การจบเกม:
+                        <ul>
+                            <li>เกมจะจบเมื่อทีมหนึ่งค้นหาคำทั้งหมดที่เป็นของตนเอง (5 คำ) หรือทีมที่เลือกคำ "Assassin" จะเป็นฝ่ายแพ้</li>
+                        </ul>
+                    </li>
+                </ol>
+            </h4>
+        </div>
+    </div>
+    <div class="footer">
+        <p class="foottxt"><a href="https://www.facebook.com/thanakorn.pornthanaworanon/" target="_blank">
+            <img src="../picture/facebook.png" width="30"></a>
+            <a href="https://www.instagram.com/lons.co.th/?hl=en" target="_blank">
+            <img src="../picture/ig.png" width="30"></a>
+        </p>
+        <p><img src="../picture/mail.png" width="25"> : 
+            655021000402@mail.rmutk.ac.th</p>
+        <p>©thanakorneiei</p>
+    </div>
+</body>
+</html>
