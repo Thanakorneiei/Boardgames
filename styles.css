@@ -37,6 +37,7 @@ a {
     background-color: rgb(15, 43, 66);
     position: relative;
     width: 100%;
+    min-height: 300px;
     padding-bottom: 5%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode',
      'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
